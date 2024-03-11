@@ -9,9 +9,6 @@ import HyperX from '../../../assets/logos/brands/hyperx-logo-lg.svg';
 import PlayStation from '../../../assets/logos/brands/playstation-6.svg';
 import Redragon from '../../../assets/logos/brands/redragon.svg';
 
-import Keyboard from '../../../assets/logos/categories/keyboard.png';
-import Mouse from '../../../assets/logos/categories/mouse.png';
-
 import textStyles from '~/styles/texts';
 
 interface Brand {
@@ -24,12 +21,22 @@ const brands: Brand[] = [
   {
     id: 1,
     brand: 'Mouse',
-    renderComponent: () => <Image source={Mouse} style={{ width: 190, height: 190 }} />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/mouse.png')}
+        style={{ width: 190, height: 190 }}
+      />
+    ),
   },
   {
     id: 2,
     brand: 'KeyBoard',
-    renderComponent: () => <Image source={Keyboard} style={{ width: 190, height: 190 }} />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/keyboard.png')}
+        style={{ width: 190, height: 190 }}
+      />
+    ),
   },
   {
     id: 3,
