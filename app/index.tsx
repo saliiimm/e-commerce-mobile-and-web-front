@@ -1,4 +1,7 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable import/first */
+/* eslint-disable import/order */
+/* eslint-disable prettier/prettier */
 
 import { router } from 'expo-router';
 import Head from 'expo-router/head';
@@ -8,6 +11,9 @@ import { YStack, H2, Theme, H5, Button } from 'tamagui';
 
 import Storelogo from '../assets/logos/storelogo.svg';
 import BrandsCarousel from '../components/carousels/BrandsCarousel';
+import { enableLegacyWebImplementation } from 'react-native-gesture-handler';
+
+enableLegacyWebImplementation(true);
 
 import textStyles from '~/styles/texts';
 const Page = () => {

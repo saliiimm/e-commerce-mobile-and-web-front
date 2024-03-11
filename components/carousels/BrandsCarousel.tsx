@@ -2,7 +2,6 @@
 import * as React from 'react';
 import { View, Dimensions } from 'react-native';
 import Carousel from 'react-native-reanimated-carousel';
-import { XStack } from 'tamagui';
 
 import Asus from '../../assets/logos/brands/asus-logo.svg';
 import HyperX from '../../assets/logos/brands/hyperx-logo-lg.svg';

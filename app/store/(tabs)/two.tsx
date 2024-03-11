@@ -1,18 +1,16 @@
+/* eslint-disable import/order */
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { YStack, H2, Separator, Theme } from 'tamagui';
-
-import EditScreenInfo from '../../../components/edit-screen-info';
 import { FlatList, StyleSheet, View, Image, Text } from 'react-native';
+import { YStack, Theme } from 'tamagui';
 
 import Asus from '../../../assets/logos/brands/asus-logo.svg';
 import HyperX from '../../../assets/logos/brands/hyperx-logo-lg.svg';
-import Logitech from '../../../assets/logos/brands/logitech.svg';
 import PlayStation from '../../../assets/logos/brands/playstation-6.svg';
-import Razer from '../../../assets/logos/brands/razer.svg';
 import Redragon from '../../../assets/logos/brands/redragon.svg';
-import Mouse from '../../../assets/logos/categories/mouse.png';
+
 import Keyboard from '../../../assets/logos/categories/keyboard.png';
+import Mouse from '../../../assets/logos/categories/mouse.png';
 
 import textStyles from '~/styles/texts';
 
@@ -99,8 +97,6 @@ const styles = StyleSheet.create({
     maxWidth: '50%',
     alignItems: 'center',
     padding: 10,
-    backgroundColor: 'rgba(249, 180, 45, 0.25)',
-    borderWidth: 1.5,
-    borderColor: '#fff',
+    backgroundColor: 'white',
   },
 });
