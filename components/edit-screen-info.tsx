@@ -1,3 +1,4 @@
+import React from 'react';
 import { YStack, H4, Paragraph } from 'tamagui';
 
 export default function EditScreenInfo({ path }: { path: string }) {
