@@ -1,15 +1,22 @@
 import React from 'react';
-import { YStack, H2, Separator, Theme } from 'tamagui';
+import { Dimensions, Image } from 'react-native';
+import { YStack, Theme } from 'tamagui';
 
-import EditScreenInfo from '../../../components/edit-screen-info';
+import TextCarousel from '~/components/carousels/TextCarousel';
+import HomeProductCart from '~/components/carts/HomeProductCart';
+
+const PAGE_WIDTH = Dimensions.get('window').width;
 
 export default function TabOneScreen() {
   return (
     <Theme name="light">
-      <YStack flex={1} alignItems="center" justifyContent="center">
-        <H2>Tab One</H2>
-        <Separator />
-        <EditScreenInfo path="app/(drawer)/(tabs)/index.tsx" />
+      <YStack flex={1} alignItems="center" justifyContent="flex-start">
+        <TextCarousel />
+        <Image
+          source={require('../../../assets/illustrations/ramadan.png')}
+          style={{ width: PAGE_WIDTH, height: 200 }}
+        />
+        <HomeProductCart />
       </YStack>
     </Theme>
   );

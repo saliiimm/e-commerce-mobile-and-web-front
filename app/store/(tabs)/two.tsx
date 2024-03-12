@@ -4,11 +4,6 @@ import React from 'react';
 import { FlatList, StyleSheet, View, Image, Text } from 'react-native';
 import { YStack, Theme } from 'tamagui';
 
-import Asus from '../../../assets/logos/brands/asus-logo.svg';
-import HyperX from '../../../assets/logos/brands/hyperx-logo-lg.svg';
-import PlayStation from '../../../assets/logos/brands/playstation-6.svg';
-import Redragon from '../../../assets/logos/brands/redragon.svg';
-
 import textStyles from '~/styles/texts';
 
 interface Brand {
@@ -41,32 +36,62 @@ const brands: Brand[] = [
   {
     id: 3,
     brand: 'EarBuds and Headphones',
-    renderComponent: () => <Asus />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/headphone.png')}
+        style={{ width: 190, height: 190 }}
+      />
+    ),
   },
   {
     id: 4,
     brand: 'Mousepads',
-    renderComponent: () => <HyperX />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/mousepad.png')}
+        style={{ width: 190, height: 190, resizeMode: 'contain' }}
+      />
+    ),
   },
   {
     id: 5,
     brand: 'Controllers',
-    renderComponent: () => <PlayStation />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/controller.png')}
+        style={{ width: 190, height: 190, resizeMode: 'contain' }}
+      />
+    ),
   },
   {
     id: 6,
     brand: 'Microphones and Webcams',
-    renderComponent: () => <Redragon />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/microphone.png')}
+        style={{ width: 190, height: 190, resizeMode: 'contain' }}
+      />
+    ),
   },
   {
     id: 7,
     brand: 'Portable Computers',
-    renderComponent: () => <Redragon />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/laptop.png')}
+        style={{ width: 190, height: 190, resizeMode: 'contain' }}
+      />
+    ),
   },
   {
     id: 8,
     brand: 'Desktop Config',
-    renderComponent: () => <Redragon />,
+    renderComponent: () => (
+      <Image
+        source={require('../../../assets/logos/categories/desktop.png')}
+        style={{ width: 190, height: 190, resizeMode: 'contain' }}
+      />
+    ),
   },
 ];
 export default function TabTwoScreen() {

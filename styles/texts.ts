@@ -29,13 +29,19 @@ const textStyles = StyleSheet.create({
   },
   LittleTitle: {
     color: 'black',
-    fontSize: 20 * scaleFactor,
-    fontFamily: 'Outfit',
+    fontSize: 17 * scaleFactor,
+    fontFamily: 'Poppins',
   },
   LittleDetail: {
     color: 'black',
-    fontSize: 15 * scaleFactor,
-    fontFamily: 'Outfit',
+    fontSize: 14 * scaleFactor,
+    fontFamily: 'Poppins',
+    textAlign: 'center',
+  },
+  Promo: {
+    color: 'white',
+    fontSize: 16 * scaleFactor,
+    fontFamily: 'Poppins',
     textAlign: 'center',
   },
 });

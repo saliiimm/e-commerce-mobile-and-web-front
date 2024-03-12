@@ -11,6 +11,7 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [loaded] = useFonts({
     Outfit: require('../assets/fonts/Outfit-Black.ttf'),
+    Poppins: require('../assets/fonts/Poppins-Medium.ttf'),
     Inter: require('@tamagui/font-inter/otf/Inter-Medium.otf'),
     InterBold: require('@tamagui/font-inter/otf/Inter-Bold.otf'),
   });
