@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { AntDesign, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { AntDesign, Entypo, MaterialIcons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
 import React from 'react';
@@ -30,7 +30,7 @@ export default function TabLayout() {
         name="two"
         options={{
           title: 'categories',
-          tabBarIcon: ({ color }) => <Ionicons name="shirt-outline" size={25} color={color} />,
+          tabBarIcon: ({ color }) => <Entypo name="laptop" size={25} color={color} />,
         }}
       />
     </Tabs>
