@@ -1,8 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { StyleSheet, Dimensions } from 'react-native';
 
-import { MAIN_COLOR } from '../config/colors';
-
 const { width } = Dimensions.get('window');
 const scaleFactor = width < 600 ? 0.8 : 1.0;
 
