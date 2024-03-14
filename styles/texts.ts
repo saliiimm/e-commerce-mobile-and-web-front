@@ -58,5 +58,16 @@ const textStyles = StyleSheet.create({
     fontSize: 22 * scaleFactor,
     fontFamily: 'Poppins',
   },
+  blackModalTitle: {
+    color: 'black',
+    fontSize: 20 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
+  ModalContent: {
+    color: '#838589',
+    lineHeight: 20,
+    fontSize: 15 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
 });
 export default textStyles;
