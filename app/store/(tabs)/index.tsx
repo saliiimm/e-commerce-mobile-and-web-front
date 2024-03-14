@@ -6,7 +6,7 @@ import BestProducts from '~/components/carousels/BestProducts';
 import NewArrivals from '~/components/carousels/NewArrivals';
 import TextCarousel from '~/components/carousels/TextCarousel';
 import ProductAd from '~/components/carts/ProductAd';
-import SearchBar from '~/components/search/SearchBar';
+import SearchBar from '~/components/inputs/SearchBar';
 
 export default function TabOneScreen() {
   return (

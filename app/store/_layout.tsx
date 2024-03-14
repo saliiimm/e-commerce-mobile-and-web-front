@@ -31,7 +31,7 @@ const DrawerLayout = () => (
     <Drawer.Screen
       name="index"
       options={{
-        headerTitle: 'Profile',
+        headerTitle: 'My Profile',
         drawerLabel: 'Profile',
         drawerIcon: ({ size, color }) => <AntDesign name="user" size={size} color={color} />,
       }}
