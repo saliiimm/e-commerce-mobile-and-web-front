@@ -30,7 +30,7 @@ export default function RootLayout() {
         <Stack>
           <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen name="store" options={{ headerShown: false }} />
-          <Stack.Screen name="modal" options={{ title: 'Modal', presentation: 'modal' }} />
+          <Stack.Screen name="modal" options={{ title: 'Panier', presentation: 'modal' }} />
         </Stack>
       </GestureHandlerRootView>
     </TamaguiProvider>
