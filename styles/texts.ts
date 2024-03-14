@@ -38,11 +38,27 @@ const textStyles = StyleSheet.create({
     fontFamily: 'Poppins',
     textAlign: 'center',
   },
+  blackHomeTitle: {
+    color: 'black',
+    fontSize: 25 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
   Promo: {
     color: 'white',
     fontSize: 16 * scaleFactor,
     fontFamily: 'Poppins',
     textAlign: 'center',
+  },
+  AdCartTitle: {
+    color: 'white',
+    fontSize: 37 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
+  AdCartSubTitle: {
+    color: 'white',
+    opacity: 0.5,
+    fontSize: 22 * scaleFactor,
+    fontFamily: 'Poppins',
   },
 });
 export default textStyles;

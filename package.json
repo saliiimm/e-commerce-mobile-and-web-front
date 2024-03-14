@@ -39,6 +39,7 @@
     "tamagui": "1.74.8"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/core": "^7.20.0",
     "@tamagui/babel-plugin": "1.74.8",
     "@types/react": "~18.2.14",

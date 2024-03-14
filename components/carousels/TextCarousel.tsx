@@ -59,7 +59,7 @@ function TextCarousel() {
               height={30}
               style={[
                 {
-                  width: 500,
+                  width: PAGE_WIDTH * 0.92,
                 },
               ]}
               snapEnabled={false}

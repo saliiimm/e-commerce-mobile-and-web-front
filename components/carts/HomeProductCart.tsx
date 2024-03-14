@@ -27,7 +27,9 @@ const styles = StyleSheet.create({
     padding: 5,
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#FFFFFF',
+    marginHorizontal: 5,
+    borderRadius: 5,
   },
   textContainer: {
     justifyContent: 'flex-start',
@@ -39,6 +41,7 @@ const styles = StyleSheet.create({
     right: 0,
     justifyContent: 'center',
     backgroundColor: '#45ADA1',
+    borderTopRightRadius: 5,
   },
 });
 
