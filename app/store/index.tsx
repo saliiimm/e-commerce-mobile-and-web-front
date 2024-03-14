@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { YStack, H2, Theme, ScrollView, Button } from 'tamagui';
+
 import Infos from '~/components/inputs/Infos';
 import NotConnected from '~/components/modals/NotConnected';
 import { MAIN_COLOR } from '~/config/colors';
-
 import textStyles from '~/styles/texts';
 
 const Page = () => {
