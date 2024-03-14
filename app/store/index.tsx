@@ -1,8 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { YStack, H2, Theme, H5, Button } from 'tamagui';
+import { YStack, H2, Theme } from 'tamagui';
 
-import BrandsCarousel from '../../components/carousels/BrandsCarousel';
 import textStyles from '~/styles/texts';
 
 const Page = () => {

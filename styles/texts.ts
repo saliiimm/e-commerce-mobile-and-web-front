@@ -1,8 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { StyleSheet, Dimensions } from 'react-native';
 
-import { MAIN_COLOR } from '../config/colors';
-
 const { width } = Dimensions.get('window');
 const scaleFactor = width < 600 ? 0.8 : 1.0;
 
@@ -38,11 +36,27 @@ const textStyles = StyleSheet.create({
     fontFamily: 'Poppins',
     textAlign: 'center',
   },
+  blackHomeTitle: {
+    color: 'black',
+    fontSize: 25 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
   Promo: {
     color: 'white',
     fontSize: 16 * scaleFactor,
     fontFamily: 'Poppins',
     textAlign: 'center',
+  },
+  AdCartTitle: {
+    color: 'white',
+    fontSize: 37 * scaleFactor,
+    fontFamily: 'Poppins',
+  },
+  AdCartSubTitle: {
+    color: 'white',
+    opacity: 0.5,
+    fontSize: 22 * scaleFactor,
+    fontFamily: 'Poppins',
   },
 });
 export default textStyles;
